@@ -1,0 +1,31 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "report1",
+  "name" : "report1",
+  "lastUpdate" : 1654256033520,
+  "rows" : [
+    [ ]
+  ],
+  "assets" : [
+    {
+      "id" : "7d02bbd9-318f-4d97-8420-78a04e7ae5c0",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "03b928b1-9c3a-4ee1-9475-f5bf5d8cf8e1",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "e4bda1fc-87ab-4920-897f-916e62f1b866",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
