@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "BuhReport",
   "name" : "BuhReport",
-  "lastUpdate" : 1654542315646,
+  "lastUpdate" : 1654664150885,
   "rows" : [
     [
       {
@@ -237,7 +237,7 @@
           },
           "url" : {
             "type" : "interpolation",
-            "value" : "http://localhost:8087/barakat/report/{{selectedReport.jasperFileName}}"
+            "value" : "{{host}}:8087/barakat/report/{{selectedReport.jasperFileName}}"
           },
           "responseStatusCode" : {
             "type" : "variable",
@@ -309,7 +309,7 @@
           },
           "url" : {
             "type" : "expression",
-            "value" : "\"http://localhost:8087/barakat/report/download/\"+selectedReport.downloadFileName"
+            "value" : "host + \":8087/barakat/report/download/\"+selectedReport.downloadFileName"
           },
           "document" : {
             "type" : "variable",
@@ -347,7 +347,7 @@
     "barakatReports" : {
       "type" : "url",
       "value" : [
-        "http://localhost:8087/barakat/report/"
+        "{{host}}:8087/barakat/report/"
       ],
       "advancedOptions" : { },
       "exposed" : false
@@ -356,6 +356,13 @@
       "type" : "json",
       "value" : [
         "{}"
+      ],
+      "exposed" : false
+    },
+    "host" : {
+      "type" : "constant",
+      "value" : [
+        "http://25.29.95.145"
       ],
       "exposed" : false
     }

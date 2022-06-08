@@ -1,0 +1,1050 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "BuhReportDetail",
+  "name" : "BuhReportDetail",
+  "lastUpdate" : 1654687112142,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Сводный отчет"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "6f04592b-2f5f-4b8d-97ca-8b8b8c38a785",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "inlineInput" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Дата начала"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "withTimeZone" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "selectedReport.data.start.value"
+          },
+          "dateFormat" : {
+            "type" : "constant",
+            "value" : "dd.MM.yyyy"
+          },
+          "placeholder" : {
+            "type" : "interpolation",
+            "value" : "Введите дату"
+          },
+          "timeFormat" : {
+            "type" : "constant",
+            "value" : "HH:mm"
+          },
+          "timePlaceholder" : {
+            "type" : "interpolation",
+            "value" : "Введите время"
+          },
+          "showToday" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "todayLabel" : {
+            "type" : "interpolation",
+            "value" : "Сегодня"
+          },
+          "showNow" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "nowLabel" : {
+            "type" : "interpolation",
+            "value" : "Сейчас"
+          }
+        },
+        "reference" : "bd532db7-eef9-4a01-9ae3-a5cbafb11530",
+        "hasValidationError" : false,
+        "id" : "pbDateTimePicker"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "inlineInput" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Дата окончания"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "withTimeZone" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "selectedReport.data.end.value"
+          },
+          "dateFormat" : {
+            "type" : "constant",
+            "value" : "dd.MM.yyyy"
+          },
+          "placeholder" : {
+            "type" : "interpolation",
+            "value" : "Введите дату"
+          },
+          "timeFormat" : {
+            "type" : "constant",
+            "value" : "HH:mm"
+          },
+          "timePlaceholder" : {
+            "type" : "interpolation",
+            "value" : "Введите время"
+          },
+          "showToday" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "todayLabel" : {
+            "type" : "interpolation",
+            "value" : "Сегодня"
+          },
+          "showNow" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "nowLabel" : {
+            "type" : "interpolation",
+            "value" : "Сейчас"
+          }
+        },
+        "reference" : "2d4c351f-be42-46f5-9e52-a93f29fb681c",
+        "hasValidationError" : false,
+        "id" : "pbDateTimePicker"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Запросить сводный отчет"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "success"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "POST"
+          },
+          "assign" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "url" : {
+            "type" : "interpolation",
+            "value" : "{{barakatAppUrl}}/barakat/report/{{mainjasperreport.jasperFileName}}"
+          },
+          "responseStatusCode" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "dataToSend" : {
+            "type" : "expression",
+            "value" : "parameterScript"
+          },
+          "dataFromSuccess" : {
+            "type" : "variable",
+            "value" : "mainjasperreport.downloadFileName"
+          },
+          "closeOnSuccess" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "dataFromError" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "targetUrlOnSuccess" : {
+            "type" : "interpolation"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "modalId" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "collectionPosition" : {
+            "type" : "constant",
+            "value" : "Last"
+          },
+          "valueToAdd" : {
+            "type" : "constant"
+          },
+          "removeItem" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "684cef50-a28c-4e29-99af-e6a19a40a376",
+        "hasValidationError" : false,
+        "id" : "pbButton"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "URL"
+          },
+          "url" : {
+            "type" : "expression",
+            "value" : "barakatAppUrl + \"/barakat/report/download/\"+mainjasperreport.downloadFileName"
+          },
+          "document" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "showPreview" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "88992ff0-bcd5-4e25-a4b3-6132c001c7b9",
+        "hasValidationError" : false,
+        "id" : "pbFileViewer"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default label"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<hr>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "f2bf92cb-9b8f-4636-a4b2-1a9825576c87",
+        "hasValidationError" : false,
+        "id" : "pbText"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Продолжение: детальный отчет"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "f0369dcf-a522-4231-9c7e-b0ac3863bdaf",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Выбрать клиентов и их пункты доставки"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "default"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "Open modal"
+          },
+          "assign" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "url" : {
+            "type" : "interpolation"
+          },
+          "responseStatusCode" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "dataToSend" : {
+            "type" : "constant"
+          },
+          "dataFromSuccess" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "closeOnSuccess" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "dataFromError" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "targetUrlOnSuccess" : {
+            "type" : "interpolation"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "modalId" : {
+            "type" : "constant",
+            "value" : "customers"
+          },
+          "collectionPosition" : {
+            "type" : "constant",
+            "value" : "Last"
+          },
+          "valueToAdd" : {
+            "type" : "constant"
+          },
+          "removeItem" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "ca6e8733-1813-45a0-b65f-40728223add6",
+        "hasValidationError" : false,
+        "id" : "pbButton"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default label"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Клиенты: {{selectedReport.data.clients}}<br>\nПункты доставки: {{selectedReport.data.warehouses}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "b1c8719b-dd9b-4f5c-84c2-ffc35e00a454",
+        "hasValidationError" : false,
+        "id" : "pbText"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "expression",
+            "value" : "!selectedReport"
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Запросить детальный отчет"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "success"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "POST"
+          },
+          "assign" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "url" : {
+            "type" : "interpolation",
+            "value" : "{{barakatAppUrl}}/barakat/report/{{selectedReport.jasperFileName}}"
+          },
+          "responseStatusCode" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "dataToSend" : {
+            "type" : "expression",
+            "value" : "parameterScript"
+          },
+          "dataFromSuccess" : {
+            "type" : "variable",
+            "value" : "selectedReport.downloadFileName"
+          },
+          "closeOnSuccess" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "dataFromError" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "targetUrlOnSuccess" : {
+            "type" : "interpolation"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "modalId" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "collectionPosition" : {
+            "type" : "constant",
+            "value" : "Last"
+          },
+          "valueToAdd" : {
+            "type" : "constant"
+          },
+          "removeItem" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "6775606d-85dc-4d7a-aa3b-aad83ecb5fe2",
+        "hasValidationError" : false,
+        "id" : "pbButton"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "URL"
+          },
+          "url" : {
+            "type" : "expression",
+            "value" : "barakatAppUrl + \"/barakat/report/download/\"+selectedReport.downloadFileName"
+          },
+          "document" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "showPreview" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "7429014a-a93f-44d3-b6c3-87831cbffa85",
+        "hasValidationError" : false,
+        "id" : "pbFileViewer"
+      }
+    ],
+    [
+      {
+        "type" : "modalContainer",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "modalId" : {
+            "type" : "constant",
+            "value" : "customers"
+          },
+          "size" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "animation" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "a1e46b10-97a6-44d0-873e-0e8884c3f045",
+        "hasValidationError" : false,
+        "id" : "pbModalContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "221d9b32-b12a-4910-a1b6-d91594c8af9d",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Список клиентов и пунктов доставки за период {{selectedReport.data.start.value  | date : 'dd.MM.yyyy HH:mm'}} - {{selectedReport.data.end.value | date : 'dd.MM.yyyy HH:mm'}}"
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "1404d79e-69ea-40a3-a5ca-d55748f2dfdf",
+                "hasValidationError" : false,
+                "id" : "pbTitle"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 6,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Клиенты"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "availableValues" : {
+                    "type" : "expression",
+                    "value" : "clients"
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValues" : {
+                    "type" : "variable",
+                    "value" : "selectedReport.data.clients"
+                  }
+                },
+                "reference" : "2cb1a60a-8cb1-4246-b64e-c4a82dbc1766",
+                "hasValidationError" : false,
+                "id" : "pbChecklist"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 6,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Пункты"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "availableValues" : {
+                    "type" : "expression",
+                    "value" : "warehouses"
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValues" : {
+                    "type" : "variable",
+                    "value" : "selectedReport.data.warehouses"
+                  }
+                },
+                "reference" : "a8be722f-40f9-45c5-a641-036401a0666d",
+                "hasValidationError" : false,
+                "id" : "pbChecklist"
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "ac41c24a-e73e-4fa6-a413-310c90854fa9",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "74a55c75-769a-43fa-ad53-5757a2468a63",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "barakatReports" : {
+      "type" : "url",
+      "value" : [
+        "{{barakatAppUrl}}/barakat/report/"
+      ],
+      "advancedOptions" : { },
+      "exposed" : false
+    },
+    "selectedReport" : {
+      "type" : "json",
+      "value" : [
+        "{",
+        "    \"jasperFileName\": \"barakatdetail\",",
+        "    \"parameters\": [],",
+        "    \"data\": {}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "host" : {
+      "type" : "constant",
+      "value" : [
+        "http://25.29.95.145"
+      ],
+      "exposed" : false
+    },
+    "clients" : {
+      "type" : "url",
+      "value" : [
+        "{{barakatAppUrl}}/barakat/catalog/clients?start={{selectedReport.data.start.value}}&end={{selectedReport.data.end.value}}"
+      ],
+      "advancedOptions" : {
+        "headers" : "",
+        "statusCode" : "",
+        "failedResponseValue" : ""
+      },
+      "exposed" : false
+    },
+    "barakatAppUrl" : {
+      "type" : "expression",
+      "value" : [
+        "return $data.host + \":8087\";"
+      ],
+      "exposed" : false
+    },
+    "warehouses" : {
+      "type" : "url",
+      "value" : [
+        "{{barakatAppUrl}}/barakat/catalog/warehouses?start={{selectedReport.data.start.value}}&end={{selectedReport.data.end.value}}"
+      ],
+      "advancedOptions" : { },
+      "exposed" : false
+    },
+    "parameterScript" : {
+      "type" : "expression",
+      "value" : [
+        "var data = $data.selectedReport.data",
+        "var parameters = [];",
+        "if(data.start){",
+        "parameters.push({",
+        "    name: \"start\",",
+        "    value: data.start.value,",
+        "    javaType: \"java.sql.Timestamp\"",
+        "})    ",
+        "}",
+        "if(data.end){",
+        "parameters.push({",
+        "    name: \"end\",",
+        "    value: data.end.value,",
+        "    javaType: 'java.sql.Timestamp'",
+        "})    ",
+        "}",
+        "",
+        "//and customer.\"Name\" in ('') and wareh.\"Name\" in ('')",
+        "var customfilter = [];",
+        "if(data.clients && data.clients.length > 0){",
+        "  var client = \"'\" + data.clients.join(\"','\") + \"'\";",
+        "  customfilter.push('customer.\"Name\" in (' + client + ')') ",
+        "}",
+        "if(data.warehouses && data.warehouses.length > 0){",
+        "  var client = \"'\" + data.warehouses.join(\"','\") + \"'\";",
+        "  customfilter.push('wareh.\"Name\" in (' + client + ')') ",
+        "}",
+        "parameters.push({",
+        "    name: \"customfilter\",",
+        "    value: customfilter.length != 0? ' and ' + customfilter.join(' and '): '',",
+        "    javaType: \"java.lang.String\"",
+        "}) ",
+        "",
+        "",
+        "return parameters"
+      ],
+      "exposed" : false
+    },
+    "mainjasperreport" : {
+      "type" : "json",
+      "value" : [
+        "{",
+        "    \"jasperFileName\": \"barakatmain\"",
+        "}"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "83650a91-59e8-4d4d-b2fb-09f0ae147e29",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
