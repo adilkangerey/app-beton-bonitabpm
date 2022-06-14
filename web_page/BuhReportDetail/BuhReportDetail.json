@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "BuhReportDetail",
   "name" : "BuhReportDetail",
-  "lastUpdate" : 1654687112142,
+  "lastUpdate" : 1655209379932,
   "rows" : [
     [
       {
@@ -951,7 +951,7 @@
       "type" : "json",
       "value" : [
         "{",
-        "    \"jasperFileName\": \"barakatdetail\",",
+        "    \"jasperFileName\": \"barakatdetail-fb\",",
         "    \"parameters\": [],",
         "    \"data\": {}",
         "}"
@@ -961,7 +961,7 @@
     "host" : {
       "type" : "constant",
       "value" : [
-        "http://25.29.95.145"
+        "http://localhost"
       ],
       "exposed" : false
     },
@@ -1037,7 +1037,7 @@
       "type" : "json",
       "value" : [
         "{",
-        "    \"jasperFileName\": \"barakatmain\"",
+        "    \"jasperFileName\": \"barakatmain-fb\"",
         "}"
       ],
       "exposed" : false
