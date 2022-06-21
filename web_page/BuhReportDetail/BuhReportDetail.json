@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "BuhReportDetail",
   "name" : "BuhReportDetail",
-  "lastUpdate" : 1655209379932,
+  "lastUpdate" : 1655801275191,
   "rows" : [
     [
       {
@@ -127,9 +127,9 @@
             "value" : "Сейчас"
           }
         },
-        "reference" : "bd532db7-eef9-4a01-9ae3-a5cbafb11530",
+        "reference" : "9585c833-c256-4594-bd69-3e38086147f1",
         "hasValidationError" : false,
-        "id" : "pbDateTimePicker"
+        "id" : "customDateTimePickerIgnoreTimeHandWrite"
       }
     ],
     [
@@ -219,9 +219,9 @@
             "value" : "Сейчас"
           }
         },
-        "reference" : "2d4c351f-be42-46f5-9e52-a93f29fb681c",
+        "reference" : "0bd95218-f004-45f6-8e92-48b20e411bde",
         "hasValidationError" : false,
-        "id" : "pbDateTimePicker"
+        "id" : "customDateTimePickerIgnoreTimeHandWrite"
       }
     ],
     [
@@ -816,6 +816,186 @@
                     "type" : "constant",
                     "value" : false
                   },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Получить клиентов"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "default"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "GET"
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation",
+                    "value" : "{{barakatAppUrl}}/barakat/catalog/clients?start={{selectedReport.data.start.value}}&end={{selectedReport.data.end.value}}"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataToSend" : {
+                    "type" : "constant"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : "clients"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant",
+                    "value" : "Last"
+                  },
+                  "valueToAdd" : {
+                    "type" : "constant"
+                  },
+                  "removeItem" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "ea70eaad-0081-4d15-9060-f5420c09cc40",
+                "hasValidationError" : false,
+                "id" : "pbButton"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 6,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Получить Пункты"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "default"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "GET"
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation",
+                    "value" : "{{barakatAppUrl}}/barakat/catalog/warehouses?start={{selectedReport.data.start.value}}&end={{selectedReport.data.end.value}}"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataToSend" : {
+                    "type" : "constant"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : "warehouses"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant",
+                    "value" : "Last"
+                  },
+                  "valueToAdd" : {
+                    "type" : "constant"
+                  },
+                  "removeItem" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "49e659d0-fc57-4cc1-be68-e3fd56bcd7eb",
+                "hasValidationError" : false,
+                "id" : "pbButton"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 6,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
                   "inline" : {
                     "type" : "constant",
                     "value" : false
@@ -966,15 +1146,10 @@
       "exposed" : false
     },
     "clients" : {
-      "type" : "url",
+      "type" : "json",
       "value" : [
-        "{{barakatAppUrl}}/barakat/catalog/clients?start={{selectedReport.data.start.value}}&end={{selectedReport.data.end.value}}"
+        "[]"
       ],
-      "advancedOptions" : {
-        "headers" : "",
-        "statusCode" : "",
-        "failedResponseValue" : ""
-      },
       "exposed" : false
     },
     "barakatAppUrl" : {
@@ -985,11 +1160,10 @@
       "exposed" : false
     },
     "warehouses" : {
-      "type" : "url",
+      "type" : "json",
       "value" : [
-        "{{barakatAppUrl}}/barakat/catalog/warehouses?start={{selectedReport.data.start.value}}&end={{selectedReport.data.end.value}}"
+        "[]"
       ],
-      "advancedOptions" : { },
       "exposed" : false
     },
     "parameterScript" : {
