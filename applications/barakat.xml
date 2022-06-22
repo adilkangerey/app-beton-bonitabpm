@@ -15,4 +15,15 @@
             </applicationMenu>
         </applicationMenus>
     </application>
+    <application token="orders" version="1.0" profile="User" homePage="order" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Заявки</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_order" token="order"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="order">
+                <displayName>Заявки</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
 </applications>

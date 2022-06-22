@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "BuhReportDetail",
   "name" : "BuhReportDetail",
-  "lastUpdate" : 1655801275191,
+  "lastUpdate" : 1655866930655,
   "rows" : [
     [
       {
@@ -314,6 +314,58 @@
         "reference" : "684cef50-a28c-4e29-99af-e6a19a40a376",
         "hasValidationError" : false,
         "id" : "pbButton"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default label"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{mainjasperreportFail}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "5f3c42f8-28c0-44d1-a341-8f15211a35cf",
+        "hasValidationError" : false,
+        "id" : "pbText"
       }
     ],
     [
@@ -1214,6 +1266,10 @@
         "    \"jasperFileName\": \"barakatmain-fb\"",
         "}"
       ],
+      "exposed" : false
+    },
+    "mainjasperreportFail" : {
+      "type" : "constant",
       "exposed" : false
     }
   },

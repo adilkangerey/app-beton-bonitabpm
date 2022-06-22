@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "order",
   "name" : "order",
-  "lastUpdate" : 1655812103906,
+  "lastUpdate" : 1655875692893,
   "rows" : [
     [
       {
@@ -128,369 +128,6 @@
                         ],
                         [
                           {
-                            "type" : "component",
-                            "dimension" : {
-                              "xs" : 12,
-                              "sm" : 12,
-                              "md" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "minLength" : {
-                                "type" : "constant"
-                              },
-                              "maxLength" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "readOnly" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Обьем"
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 4
-                              },
-                              "placeholder" : {
-                                "type" : "interpolation"
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "neworder.cubicMeter"
-                              },
-                              "type" : {
-                                "type" : "constant",
-                                "value" : "number"
-                              },
-                              "min" : {
-                                "type" : "constant",
-                                "value" : 0.5
-                              },
-                              "max" : {
-                                "type" : "constant"
-                              },
-                              "step" : {
-                                "type" : "constant",
-                                "value" : 0.1
-                              }
-                            },
-                            "reference" : "2e55c451-2046-43ae-9f5a-0b2e06f5f568",
-                            "hasValidationError" : false,
-                            "id" : "pbInput"
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "xs" : 12,
-                              "sm" : 12,
-                              "md" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "minLength" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "maxLength" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "readOnly" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Осадок конуса"
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 4
-                              },
-                              "placeholder" : {
-                                "type" : "interpolation"
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "neworder.coneSediment"
-                              },
-                              "type" : {
-                                "type" : "constant",
-                                "value" : "number"
-                              },
-                              "min" : {
-                                "type" : "constant"
-                              },
-                              "max" : {
-                                "type" : "constant"
-                              },
-                              "step" : {
-                                "type" : "constant",
-                                "value" : 0.1
-                              }
-                            },
-                            "reference" : "a39967cb-7d01-44cb-bf7b-1980b0c331ea",
-                            "hasValidationError" : false,
-                            "id" : "pbInput"
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "xs" : 12,
-                              "sm" : 12,
-                              "md" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "minLength" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "maxLength" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "readOnly" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Конструкция"
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 4
-                              },
-                              "placeholder" : {
-                                "type" : "interpolation"
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "neworder.construction"
-                              },
-                              "type" : {
-                                "type" : "constant",
-                                "value" : "text"
-                              },
-                              "min" : {
-                                "type" : "constant"
-                              },
-                              "max" : {
-                                "type" : "constant"
-                              },
-                              "step" : {
-                                "type" : "constant",
-                                "value" : 1
-                              }
-                            },
-                            "reference" : "2644cae9-c654-4bc7-8d48-ad6ec95642f6",
-                            "hasValidationError" : false,
-                            "id" : "pbInput"
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "xs" : 12,
-                              "sm" : 12,
-                              "md" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "readOnly" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "inlineInput" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Дата подачи"
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 4
-                              },
-                              "withTimeZone" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "neworder.startTime"
-                              },
-                              "dateFormat" : {
-                                "type" : "constant",
-                                "value" : "dd.MM.yyyy"
-                              },
-                              "placeholder" : {
-                                "type" : "interpolation",
-                                "value" : ""
-                              },
-                              "timeFormat" : {
-                                "type" : "constant",
-                                "value" : "hh:mm"
-                              },
-                              "timePlaceholder" : {
-                                "type" : "interpolation",
-                                "value" : ""
-                              },
-                              "showToday" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "todayLabel" : {
-                                "type" : "interpolation",
-                                "value" : "Сегодня"
-                              },
-                              "showNow" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "nowLabel" : {
-                                "type" : "interpolation",
-                                "value" : "Now"
-                              }
-                            },
-                            "reference" : "5f5f4cf9-9f2a-4a06-a597-33199a841b39",
-                            "hasValidationError" : false,
-                            "id" : "customDateTimePickerIgnoreTimeHandWrite"
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "xs" : 12,
-                              "sm" : 12,
-                              "md" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "disabled" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Расширенные детали подачи"
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "select.isAdditional"
-                              }
-                            },
-                            "reference" : "c7c2194d-09d4-4042-9037-6e0225c55456",
-                            "hasValidationError" : false,
-                            "id" : "pbCheckbox"
-                          }
-                        ],
-                        [
-                          {
                             "type" : "container",
                             "dimension" : {
                               "xs" : 12,
@@ -501,277 +138,18 @@
                             "propertyValues" : {
                               "cssClasses" : {
                                 "type" : "constant",
-                                "value" : ""
+                                "value" : "bg-success"
                               },
                               "hidden" : {
                                 "type" : "expression",
-                                "value" : "!select.isAdditional"
+                                "value" : "!neworderSuccess.checked"
                               },
                               "repeatedCollection" : {
                                 "type" : "variable",
                                 "value" : ""
                               }
                             },
-                            "reference" : "69489e6f-1c80-4f8c-b954-a88b77d7b5a5",
-                            "hasValidationError" : false,
-                            "id" : "pbContainer",
-                            "rows" : [
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "xs" : 12,
-                                    "sm" : 12,
-                                    "md" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "hidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "readOnly" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "required" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "inlineInput" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Привезти до даты"
-                                    },
-                                    "labelPosition" : {
-                                      "type" : "constant",
-                                      "value" : "top"
-                                    },
-                                    "labelWidth" : {
-                                      "type" : "constant",
-                                      "value" : 4
-                                    },
-                                    "withTimeZone" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "value" : {
-                                      "type" : "variable",
-                                      "value" : "neworder.endTime"
-                                    },
-                                    "dateFormat" : {
-                                      "type" : "constant",
-                                      "value" : "dd.MM.yyyy"
-                                    },
-                                    "placeholder" : {
-                                      "type" : "interpolation",
-                                      "value" : ""
-                                    },
-                                    "timeFormat" : {
-                                      "type" : "constant",
-                                      "value" : "h:mm:ss a"
-                                    },
-                                    "timePlaceholder" : {
-                                      "type" : "interpolation",
-                                      "value" : "Enter a time (h:mm:ss a)"
-                                    },
-                                    "showToday" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "todayLabel" : {
-                                      "type" : "interpolation",
-                                      "value" : "Today"
-                                    },
-                                    "showNow" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "nowLabel" : {
-                                      "type" : "interpolation",
-                                      "value" : "Now"
-                                    }
-                                  },
-                                  "reference" : "41c4953a-0b74-4cd7-9d24-39d1347c7084",
-                                  "hasValidationError" : false,
-                                  "id" : "customDateTimePickerIgnoreTimeHandWrite"
-                                }
-                              ],
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "xs" : 12,
-                                    "sm" : 12,
-                                    "md" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "hidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "required" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "minLength" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "maxLength" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "readOnly" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Интервал в минутах"
-                                    },
-                                    "labelPosition" : {
-                                      "type" : "constant",
-                                      "value" : "top"
-                                    },
-                                    "labelWidth" : {
-                                      "type" : "constant",
-                                      "value" : 4
-                                    },
-                                    "placeholder" : {
-                                      "type" : "interpolation"
-                                    },
-                                    "value" : {
-                                      "type" : "variable",
-                                      "value" : "neworder.intervalMinutes"
-                                    },
-                                    "type" : {
-                                      "type" : "constant",
-                                      "value" : "number"
-                                    },
-                                    "min" : {
-                                      "type" : "constant"
-                                    },
-                                    "max" : {
-                                      "type" : "constant"
-                                    },
-                                    "step" : {
-                                      "type" : "constant",
-                                      "value" : 1
-                                    }
-                                  },
-                                  "reference" : "1812db15-32a6-42a0-a0b4-c88fce31f736",
-                                  "hasValidationError" : false,
-                                  "id" : "pbInput"
-                                }
-                              ],
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "xs" : 12,
-                                    "sm" : 12,
-                                    "md" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "hidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "readOnly" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "required" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "minLength" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "maxLength" : {
-                                      "type" : "constant",
-                                      "value" : 254
-                                    },
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Комментарий к интервалу"
-                                    },
-                                    "labelPosition" : {
-                                      "type" : "constant",
-                                      "value" : "top"
-                                    },
-                                    "labelWidth" : {
-                                      "type" : "constant",
-                                      "value" : 4
-                                    },
-                                    "value" : {
-                                      "type" : "variable",
-                                      "value" : "neworder.intervalComment"
-                                    }
-                                  },
-                                  "reference" : "a59ae96b-f9fb-459b-8bc8-57853f65904a",
-                                  "hasValidationError" : false,
-                                  "id" : "pbTextarea"
-                                }
-                              ]
-                            ]
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "container",
-                            "dimension" : {
-                              "xs" : 12,
-                              "sm" : 12,
-                              "md" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "hidden" : {
-                                "type" : "expression",
-                                "value" : "select.bkCustomer != null && select.bkProduct != null"
-                              },
-                              "repeatedCollection" : {
-                                "type" : "variable",
-                                "value" : ""
-                              }
-                            },
-                            "reference" : "19db8ebe-c437-4309-812f-987a2496eb19",
+                            "reference" : "f67682f2-8f08-4d99-ae70-de7ed56ac308",
                             "hasValidationError" : false,
                             "id" : "pbContainer",
                             "rows" : [
@@ -815,16 +193,417 @@
                                     },
                                     "text" : {
                                       "type" : "interpolation",
-                                      "value" : ""
+                                      "value" : "Создана заявка с номером {{neworderSuccess.id}}"
                                     },
                                     "alignment" : {
                                       "type" : "constant",
                                       "value" : "left"
                                     }
                                   },
-                                  "reference" : "0642e667-f079-46f5-876f-fb196cdc8f80",
+                                  "reference" : "9d7e288a-05a9-4727-8ec1-739dfd743bf4",
                                   "hasValidationError" : false,
                                   "id" : "pbText"
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "xs" : 12,
+                              "sm" : 12,
+                              "md" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "select.hideneworder"
+                              },
+                              "disabled" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "required" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Новая заявка"
+                              },
+                              "value" : {
+                                "type" : "variable",
+                                "value" : "select.hideneworder"
+                              }
+                            },
+                            "reference" : "19c19b88-35ec-43a7-a7cc-882f8ec70ca8",
+                            "hasValidationError" : false,
+                            "id" : "pbCheckbox"
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "xs" : 12,
+                              "sm" : 12,
+                              "md" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!select.hideneworder"
+                              },
+                              "repeatedCollection" : {
+                                "type" : "variable",
+                                "value" : ""
+                              }
+                            },
+                            "reference" : "70a14b87-2db9-4b0c-820e-4dadb91fbb95",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "xs" : 12,
+                                    "sm" : 12,
+                                    "md" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "required" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "minLength" : {
+                                      "type" : "constant"
+                                    },
+                                    "maxLength" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "readOnly" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "labelHidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "label" : {
+                                      "type" : "interpolation",
+                                      "value" : "Обьем"
+                                    },
+                                    "labelPosition" : {
+                                      "type" : "constant",
+                                      "value" : "top"
+                                    },
+                                    "labelWidth" : {
+                                      "type" : "constant",
+                                      "value" : 4
+                                    },
+                                    "placeholder" : {
+                                      "type" : "interpolation"
+                                    },
+                                    "value" : {
+                                      "type" : "variable",
+                                      "value" : "neworder.cubicMeter"
+                                    },
+                                    "type" : {
+                                      "type" : "constant",
+                                      "value" : "number"
+                                    },
+                                    "min" : {
+                                      "type" : "constant",
+                                      "value" : 0.5
+                                    },
+                                    "max" : {
+                                      "type" : "constant"
+                                    },
+                                    "step" : {
+                                      "type" : "constant",
+                                      "value" : 0.1
+                                    }
+                                  },
+                                  "reference" : "2e55c451-2046-43ae-9f5a-0b2e06f5f568",
+                                  "hasValidationError" : false,
+                                  "id" : "pbInput"
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "xs" : 12,
+                                    "sm" : 12,
+                                    "md" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "required" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "minLength" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "maxLength" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "readOnly" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "labelHidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "label" : {
+                                      "type" : "interpolation",
+                                      "value" : "Осадок конуса"
+                                    },
+                                    "labelPosition" : {
+                                      "type" : "constant",
+                                      "value" : "top"
+                                    },
+                                    "labelWidth" : {
+                                      "type" : "constant",
+                                      "value" : 4
+                                    },
+                                    "placeholder" : {
+                                      "type" : "interpolation"
+                                    },
+                                    "value" : {
+                                      "type" : "variable",
+                                      "value" : "neworder.coneSediment"
+                                    },
+                                    "type" : {
+                                      "type" : "constant",
+                                      "value" : "number"
+                                    },
+                                    "min" : {
+                                      "type" : "constant"
+                                    },
+                                    "max" : {
+                                      "type" : "constant"
+                                    },
+                                    "step" : {
+                                      "type" : "constant",
+                                      "value" : 0.1
+                                    }
+                                  },
+                                  "reference" : "a39967cb-7d01-44cb-bf7b-1980b0c331ea",
+                                  "hasValidationError" : false,
+                                  "id" : "pbInput"
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "xs" : 12,
+                                    "sm" : 12,
+                                    "md" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "required" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "minLength" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "maxLength" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "readOnly" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "labelHidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "label" : {
+                                      "type" : "interpolation",
+                                      "value" : "Конструкция"
+                                    },
+                                    "labelPosition" : {
+                                      "type" : "constant",
+                                      "value" : "top"
+                                    },
+                                    "labelWidth" : {
+                                      "type" : "constant",
+                                      "value" : 4
+                                    },
+                                    "placeholder" : {
+                                      "type" : "interpolation"
+                                    },
+                                    "value" : {
+                                      "type" : "variable",
+                                      "value" : "neworder.construction"
+                                    },
+                                    "type" : {
+                                      "type" : "constant",
+                                      "value" : "text"
+                                    },
+                                    "min" : {
+                                      "type" : "constant"
+                                    },
+                                    "max" : {
+                                      "type" : "constant"
+                                    },
+                                    "step" : {
+                                      "type" : "constant",
+                                      "value" : 1
+                                    }
+                                  },
+                                  "reference" : "2644cae9-c654-4bc7-8d48-ad6ec95642f6",
+                                  "hasValidationError" : false,
+                                  "id" : "pbInput"
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "xs" : 12,
+                                    "sm" : 12,
+                                    "md" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "readOnly" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "required" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "labelHidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "inlineInput" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "label" : {
+                                      "type" : "interpolation",
+                                      "value" : "Дата подачи"
+                                    },
+                                    "labelPosition" : {
+                                      "type" : "constant",
+                                      "value" : "top"
+                                    },
+                                    "labelWidth" : {
+                                      "type" : "constant",
+                                      "value" : 4
+                                    },
+                                    "withTimeZone" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "value" : {
+                                      "type" : "variable",
+                                      "value" : "neworder.startTime"
+                                    },
+                                    "dateFormat" : {
+                                      "type" : "constant",
+                                      "value" : "dd.MM.yyyy"
+                                    },
+                                    "placeholder" : {
+                                      "type" : "interpolation",
+                                      "value" : ""
+                                    },
+                                    "timeFormat" : {
+                                      "type" : "constant",
+                                      "value" : "HH:mm"
+                                    },
+                                    "timePlaceholder" : {
+                                      "type" : "interpolation",
+                                      "value" : ""
+                                    },
+                                    "showToday" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "todayLabel" : {
+                                      "type" : "interpolation",
+                                      "value" : "Сегодня"
+                                    },
+                                    "showNow" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "nowLabel" : {
+                                      "type" : "interpolation",
+                                      "value" : "Now"
+                                    },
+                                    "checkValid" : {
+                                      "type" : "variable",
+                                      "value" : "helpcomponent.startTimeValidation"
+                                    },
+                                    "refresh" : {
+                                      "type" : "variable",
+                                      "value" : ""
+                                    }
+                                  },
+                                  "reference" : "5f5f4cf9-9f2a-4a06-a597-33199a841b39",
+                                  "hasValidationError" : false,
+                                  "id" : "customDateTimePickerIgnoreTimeHandWrite"
                                 }
                               ],
                               [
@@ -846,76 +625,461 @@
                                       "value" : false
                                     },
                                     "disabled" : {
-                                      "type" : "expression",
-                                      "value" : "!$form.$valid"
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "required" : {
+                                      "type" : "constant",
+                                      "value" : false
                                     },
                                     "label" : {
                                       "type" : "interpolation",
-                                      "value" : "Выбрать продукт и клиента"
+                                      "value" : "Расширенные детали подачи"
                                     },
-                                    "alignment" : {
-                                      "type" : "constant",
-                                      "value" : "left"
-                                    },
-                                    "buttonStyle" : {
-                                      "type" : "constant",
-                                      "value" : "info"
-                                    },
-                                    "action" : {
-                                      "type" : "constant",
-                                      "value" : "Open modal"
-                                    },
-                                    "assign" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "url" : {
-                                      "type" : "interpolation"
-                                    },
-                                    "responseStatusCode" : {
+                                    "value" : {
                                       "type" : "variable",
-                                      "value" : ""
-                                    },
-                                    "dataToSend" : {
-                                      "type" : "expression",
-                                      "value" : "neworder"
-                                    },
-                                    "dataFromSuccess" : {
-                                      "type" : "variable",
-                                      "value" : ""
-                                    },
-                                    "closeOnSuccess" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "dataFromError" : {
-                                      "type" : "variable",
-                                      "value" : ""
-                                    },
-                                    "targetUrlOnSuccess" : {
-                                      "type" : "interpolation"
-                                    },
-                                    "collectionToModify" : {
-                                      "type" : "variable"
-                                    },
-                                    "modalId" : {
-                                      "type" : "constant",
-                                      "value" : "neworder"
-                                    },
-                                    "collectionPosition" : {
-                                      "type" : "constant",
-                                      "value" : "Last"
-                                    },
-                                    "valueToAdd" : {
-                                      "type" : "constant"
-                                    },
-                                    "removeItem" : {
-                                      "type" : "variable"
+                                      "value" : "select.isAdditional"
                                     }
                                   },
-                                  "reference" : "14247af7-46a6-4178-9b65-c4b195d1614a",
+                                  "reference" : "c7c2194d-09d4-4042-9037-6e0225c55456",
                                   "hasValidationError" : false,
-                                  "id" : "pbButton"
+                                  "id" : "pbCheckbox"
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "xs" : 12,
+                                    "sm" : 12,
+                                    "md" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "!select.isAdditional"
+                                    },
+                                    "repeatedCollection" : {
+                                      "type" : "variable",
+                                      "value" : ""
+                                    }
+                                  },
+                                  "reference" : "69489e6f-1c80-4f8c-b954-a88b77d7b5a5",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "xs" : 12,
+                                          "sm" : 12,
+                                          "md" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "inlineInput" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Привезти до даты"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 4
+                                          },
+                                          "withTimeZone" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "neworder.endTime"
+                                          },
+                                          "dateFormat" : {
+                                            "type" : "constant",
+                                            "value" : "dd.MM.yyyy"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "interpolation",
+                                            "value" : ""
+                                          },
+                                          "timeFormat" : {
+                                            "type" : "constant",
+                                            "value" : "HH:mm"
+                                          },
+                                          "timePlaceholder" : {
+                                            "type" : "interpolation",
+                                            "value" : ""
+                                          },
+                                          "showToday" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "todayLabel" : {
+                                            "type" : "interpolation",
+                                            "value" : "Сегодня"
+                                          },
+                                          "showNow" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "nowLabel" : {
+                                            "type" : "interpolation",
+                                            "value" : "Now"
+                                          },
+                                          "refresh" : {
+                                            "type" : "variable",
+                                            "value" : ""
+                                          }
+                                        },
+                                        "reference" : "41c4953a-0b74-4cd7-9d24-39d1347c7084",
+                                        "hasValidationError" : false,
+                                        "id" : "customDateTimePickerIgnoreTimeHandWrite"
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "xs" : 12,
+                                          "sm" : 12,
+                                          "md" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "minLength" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "maxLength" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Интервал в минутах"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 4
+                                          },
+                                          "placeholder" : {
+                                            "type" : "interpolation"
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "neworder.intervalMinutes"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "number"
+                                          },
+                                          "min" : {
+                                            "type" : "constant"
+                                          },
+                                          "max" : {
+                                            "type" : "constant"
+                                          },
+                                          "step" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          }
+                                        },
+                                        "reference" : "1812db15-32a6-42a0-a0b4-c88fce31f736",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput"
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "xs" : 12,
+                                          "sm" : 12,
+                                          "md" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "minLength" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "maxLength" : {
+                                            "type" : "constant",
+                                            "value" : 254
+                                          },
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Комментарий к интервалу"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 4
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "neworder.intervalComment"
+                                          }
+                                        },
+                                        "reference" : "a59ae96b-f9fb-459b-8bc8-57853f65904a",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTextarea"
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "xs" : 12,
+                                    "sm" : 12,
+                                    "md" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "select.bkCustomer != null && select.bkProduct != null"
+                                    },
+                                    "repeatedCollection" : {
+                                      "type" : "variable",
+                                      "value" : ""
+                                    }
+                                  },
+                                  "reference" : "19db8ebe-c437-4309-812f-987a2496eb19",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "xs" : 12,
+                                          "sm" : 12,
+                                          "md" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Default label"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 4
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "text" : {
+                                            "type" : "interpolation",
+                                            "value" : ""
+                                          },
+                                          "alignment" : {
+                                            "type" : "constant",
+                                            "value" : "left"
+                                          }
+                                        },
+                                        "reference" : "0642e667-f079-46f5-876f-fb196cdc8f80",
+                                        "hasValidationError" : false,
+                                        "id" : "pbText"
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "xs" : 12,
+                                          "sm" : 12,
+                                          "md" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "disabled" : {
+                                            "type" : "expression",
+                                            "value" : "!$form.$valid"
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Выбрать продукт и клиента"
+                                          },
+                                          "alignment" : {
+                                            "type" : "constant",
+                                            "value" : "left"
+                                          },
+                                          "buttonStyle" : {
+                                            "type" : "constant",
+                                            "value" : "info"
+                                          },
+                                          "action" : {
+                                            "type" : "constant",
+                                            "value" : "Open modal"
+                                          },
+                                          "assign" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "url" : {
+                                            "type" : "interpolation"
+                                          },
+                                          "responseStatusCode" : {
+                                            "type" : "variable",
+                                            "value" : ""
+                                          },
+                                          "dataToSend" : {
+                                            "type" : "expression",
+                                            "value" : "neworder"
+                                          },
+                                          "dataFromSuccess" : {
+                                            "type" : "variable",
+                                            "value" : ""
+                                          },
+                                          "closeOnSuccess" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "dataFromError" : {
+                                            "type" : "variable",
+                                            "value" : ""
+                                          },
+                                          "targetUrlOnSuccess" : {
+                                            "type" : "interpolation"
+                                          },
+                                          "collectionToModify" : {
+                                            "type" : "variable"
+                                          },
+                                          "modalId" : {
+                                            "type" : "constant",
+                                            "value" : "neworder"
+                                          },
+                                          "collectionPosition" : {
+                                            "type" : "constant",
+                                            "value" : "Last"
+                                          },
+                                          "valueToAdd" : {
+                                            "type" : "constant"
+                                          },
+                                          "removeItem" : {
+                                            "type" : "variable"
+                                          }
+                                        },
+                                        "reference" : "14247af7-46a6-4178-9b65-c4b195d1614a",
+                                        "hasValidationError" : false,
+                                        "id" : "pbButton"
+                                      }
+                                    ]
+                                  ]
                                 }
                               ]
                             ]
@@ -1369,58 +1533,6 @@
                                   "reference" : "63a021d0-23ac-4898-9292-4afeac66b6c9",
                                   "hasValidationError" : false,
                                   "id" : "pbButton"
-                                }
-                              ],
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "xs" : 12,
-                                    "sm" : 12,
-                                    "md" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "hidden" : {
-                                      "type" : "expression",
-                                      "value" : "!neworderSuccess.checked"
-                                    },
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Default label"
-                                    },
-                                    "labelPosition" : {
-                                      "type" : "constant",
-                                      "value" : "top"
-                                    },
-                                    "labelWidth" : {
-                                      "type" : "constant",
-                                      "value" : 4
-                                    },
-                                    "allowHTML" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "text" : {
-                                      "type" : "interpolation",
-                                      "value" : "Создана заявка с номером {{neworderSuccess.id}}"
-                                    },
-                                    "alignment" : {
-                                      "type" : "constant",
-                                      "value" : "left"
-                                    }
-                                  },
-                                  "reference" : "9d7e288a-05a9-4727-8ec1-739dfd743bf4",
-                                  "hasValidationError" : false,
-                                  "id" : "pbText"
                                 }
                               ],
                               [
@@ -2929,7 +3041,7 @@
     "select" : {
       "type" : "json",
       "value" : [
-        "{\"bkProduct\":null, \"bkCustomer\":null, \"startDate\":null, \"startTime\":null}"
+        "{\"bkProduct\":null, \"bkCustomer\":null, \"hideneworder\": false}"
       ],
       "exposed" : false
     },
@@ -2938,9 +3050,13 @@
       "value" : [
         "var order =  angular.copy($data.neworder);",
         "var select = $data.select;",
-        "order.bkProductId = select.bkProduct.id;",
-        "order.bkCustomerId = select.bkCustomer.id;",
-        "return order;"
+        "if(select.bkProduct && select.bkCustomer){",
+        "    order.bkProductId = select.bkProduct.id;",
+        "    order.bkCustomerId = select.bkCustomer.id;",
+        "    return order;",
+        "}else{",
+        "    return null;",
+        "}"
       ],
       "exposed" : false
     },
@@ -2983,14 +3099,23 @@
     "neworderClearScript" : {
       "type" : "expression",
       "value" : [
-        "if($data.neworderClear || ($data.neworderSuccess && $data.neworderSuccess.checked == null )){",
+        "if($data.neworderClear || ($data.neworderSuccess && $data.neworderSuccess.checked == null && $data.neworderSuccess.id)){",
         "    $data.neworderClear = null;",
-        "    $data.neworder.startTime = null",
-        "    $data.neworder = \t{ \"cubicMeter\" : 0, \"bkProductId\": null, \"bkCustomerId\": null, \"startTime\" : null, \"endTime\": null };",
+        "    ",
+        "    $data.neworder.cubicMeter = null;",
+        "    $data.neworder.bkProductId = null;",
+        "    $data.neworder.bkCustomerId = null;",
+        "    $data.neworder.startTime = null;",
+        "    $data.neworder.endTime = null;",
+        "    $data.helpcomponent.startTimeHide = true;",
+        "    setTimeout(function(data){",
+        "        console.log('helo', data.helpcomponent)",
+        "        data.helpcomponent.startTimeHide = false;",
+        "    },1000, $data);",
+        "    ",
         "    $data.select = {};",
         "    $data.neworderSuccess.checked = true;",
         "    $data.filters.table.filterempty = ++$data.filters.table.filterempty;",
-        "    ",
         "}"
       ],
       "exposed" : false
@@ -3003,7 +3128,16 @@
         "    \"columns\":[\"id\", \"customerName\", \"productName\", date(\"startTime\")]",
         "}",
         "function date(colname){",
-        "    return colname + \"|uiDate:'dd.MM.yyyy hh:mm':'UTC'\";",
+        "    return colname + \"|uiDate:'dd.MM.yyyy hh:mm'\";",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "helpcomponent" : {
+      "type" : "json",
+      "value" : [
+        "{",
+        "    \"startTimeValidation\": false",
         "}"
       ],
       "exposed" : false

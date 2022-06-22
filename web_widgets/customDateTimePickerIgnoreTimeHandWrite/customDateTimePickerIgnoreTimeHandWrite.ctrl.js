@@ -2,12 +2,14 @@ function PbDateTimePickerCtrl($scope, $log, widgetNameFactory, $element, $locale
 
   'use strict';
 
-  this.name = widgetNameFactory.getName('pbDateTimepicker');
+  this.name = widgetNameFactory.getName('pbDateTimepickerIgnoreTimeHandWrite');
   this.firstDayOfWeek = ($locale && $locale.DATETIME_FORMATS && $locale.DATETIME_FORMATS.FIRSTDAYOFWEEK) || 0;
 
   $bsDatepicker.defaults.keyboard = false;
 
   var minuteStep = 5;
+
+
 
   $scope.$watch('properties.value', function() {
     refreshInputs();
@@ -30,6 +32,7 @@ function PbDateTimePickerCtrl($scope, $log, widgetNameFactory, $element, $locale
   }
 
   $scope.updateTimeValue = function() {
+      console.log('update called')
     if ($scope.properties.timeValue && moment($scope.properties.timeValue).isValid()) {
       var time = moment($scope.properties.timeValue);
       var dateTime = moment($scope.properties.value);
@@ -44,7 +47,8 @@ function PbDateTimePickerCtrl($scope, $log, widgetNameFactory, $element, $locale
       }
       
     } else {
-      //$scope.properties.value = undefined;
+        //$scope.properties.value = undefined;
+        
     }
   };
 
