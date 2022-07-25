@@ -32,7 +32,6 @@ function PbDateTimePickerCtrl($scope, $log, widgetNameFactory, $element, $locale
   }
 
   $scope.updateTimeValue = function() {
-      console.log('update called')
     if ($scope.properties.timeValue && moment($scope.properties.timeValue).isValid()) {
       var time = moment($scope.properties.timeValue);
       var dateTime = moment($scope.properties.value);
