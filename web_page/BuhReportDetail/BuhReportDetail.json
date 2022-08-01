@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "BuhReportDetail",
   "name" : "BuhReportDetail",
-  "lastUpdate" : 1655866930655,
+  "lastUpdate" : 1659328390890,
   "rows" : [
     [
       {
@@ -1191,9 +1191,9 @@
       "exposed" : false
     },
     "host" : {
-      "type" : "constant",
+      "type" : "expression",
       "value" : [
-        "http://localhost"
+        "return \"http://\" +  window.location.hostname"
       ],
       "exposed" : false
     },
